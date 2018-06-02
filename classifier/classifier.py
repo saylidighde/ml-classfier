@@ -338,7 +338,7 @@ def cross_validate(X, y, lambda_max=2 ** 3, max_iter=1000, num_lambda=10, num_fo
 """
 
 
-data_dir = os.path.abspath(os.path.dirname(dirname))
+data_dir = 'data/'
 
 x_train = np.load(os.path.join(data_dir, 'train_features.npy'))
 y_train = np.load(os.path.join(data_dir, 'train_labels.npy'))
